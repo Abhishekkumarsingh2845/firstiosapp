@@ -2,12 +2,12 @@
 var aa = "nfrsjng"
 aa = "ddjdndjh"
 print(aa)
+var lp = 12;print(lp) //semicolon is required if  the in same line two statement is used
 
 
 let bb="aaaa"
 let abb = 55, b = 1, c = 15
 print(bb)
-
 // let is constant it cannot be changed
 
 
@@ -27,9 +27,11 @@ mutiple lines
 print(mm)
 
 
+
 //how to count letter in a string
 let a = "counting letter in the "
 print(a.count)
+
 
 
 //hasPrefix ans hasSuffix
@@ -43,10 +45,10 @@ print(qq.hasSuffix("he"))
 var stringName : String
 var numberTemp : Int
 
+
+
 //literal
-
-
 let q=32 //interger literal
-let qq=32.1 //floating literal
+let qqqqqq=32.1 //floating literal
 let qqq="fff" //string literal
 let qqqq=true //boolean literal
