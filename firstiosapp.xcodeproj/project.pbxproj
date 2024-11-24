@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DC1023722CF25AA700C1C6CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1023712CF25AA700C1C6CB /* main.swift */; };
-		DC10237A2CF25FA500C1C6CB /* variabledeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1023792CF25FA500C1C6CB /* variabledeclaration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		DC10236E2CF25AA700C1C6CB /* firstiosapp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = firstiosapp; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1023712CF25AA700C1C6CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		DC1023792CF25FA500C1C6CB /* variabledeclaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variabledeclaration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +57,9 @@
 		DC1023702CF25AA700C1C6CB /* firstiosapp */ = {
 			isa = PBXGroup;
 			children = (
-				DC1023782CF25F8400C1C6CB /* Learning */,
 				DC1023712CF25AA700C1C6CB /* main.swift */,
 			);
 			path = firstiosapp;
-			sourceTree = "<group>";
-		};
-		DC1023782CF25F8400C1C6CB /* Learning */ = {
-			isa = PBXGroup;
-			children = (
-				DC1023792CF25FA500C1C6CB /* variabledeclaration.swift */,
-			);
-			path = Learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC10237A2CF25FA500C1C6CB /* variabledeclaration.swift in Sources */,
 				DC1023722CF25AA700C1C6CB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
